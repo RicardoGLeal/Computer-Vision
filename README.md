@@ -1,4 +1,10 @@
-# Computer-Vision 
+# Computer-Vision
+
+## Integrantes:
+1. Vicente Javier Viera Guízar A01639784
+2.
+3.
+4.
 
 ## Objetivos:
 
