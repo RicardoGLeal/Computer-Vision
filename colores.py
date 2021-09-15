@@ -12,7 +12,11 @@ if not capturaVideo.isOpened():
 while capturaVideo.isOpened():
     tipo, camara = capturaVideo.read()
     
-    cv2.imshow('Vivo', camara)
+    #se obtienen los pixeles rgb y los convierte en hsv.
+    hsv = cv2.cvtColor(camara, cv2.COLOR_BGR2HSV)
+
+    cv2.imshow("En Vivo", hsv)
+
     if cv2.waitKey(1) == ord("q"):
         break
 
