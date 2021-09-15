@@ -14,7 +14,7 @@ while (True):
     cv2.imshow('video bw', blackAndWhiteFrame)
     cv2.imshow('video original', frame)
  
-    if cv2.waitKey(1) == 27:
+    if cv2.waitKey(1) == ord("q"):
         break
  
 capture.release()
