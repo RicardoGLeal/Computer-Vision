@@ -1,9 +1,10 @@
 import cv2
+import numpy as np
 from os import system, name
-#import colores.py
-#import bw.py
-#import contornos.py
-#import figuras.py
+import Filtros.Bnw as bnw
+import Filtros.bordes as borders
+import Filtros.colores as colors
+import Filtros.faces as faces
 
 def main():
     while(True):
@@ -11,18 +12,18 @@ def main():
         print('[1] Identificar colores \n') 
         print('[2] Ver camara blanco y negro \n') 
         print('[3] Identificar contornos \n') 
-        print('[4] Identificar figuras \n') 
+        print('[4] Reconocimiento facial \n') 
         print('Cualquier otra tecla para salir :( \n') 
         seleccion = input()
         
         if seleccion == '1':
-            print('Ejecutando colores.py')
+            bnw.run()
         elif seleccion == '2':
-            print('Ejecutando bw.py')
+            borders.run()
         elif seleccion == '3':
-            print('Ejecutando contornos')
+            colors.run()
         elif seleccion == '4':
-            print('Ejectuando figuras.py')
+            faces.run()
         else:
             break
         _ = system('cls')

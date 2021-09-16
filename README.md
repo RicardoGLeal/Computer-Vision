@@ -2,7 +2,7 @@
 
 ## Integrantes:
 1. Vicente Javier Viera Guízar A01639784
-2.
+2. Carlo Angel Luján García A01639847
 3.
 4.
 
