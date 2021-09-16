@@ -4,7 +4,7 @@
 1. Vicente Javier Viera Guízar A01639784
 2. Carlo Angel Luján García A01639847
 3. Ricardo González Leal A01639036
-4.
+4. Gael Rodriguez Gomez A01639279
 
 ## Objetivos:
 
