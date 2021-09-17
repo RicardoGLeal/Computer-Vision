@@ -15,4 +15,9 @@
 
 En este proyecto desarrollaremos una serie de 4 funcionalidades relacionadas con el tema de coputer-vision, en donde intentaremos modificar imagenes mediante el añadido de filtros y el roconocimiento de figuras dentro de las imagenes.
 
+# Requerimientos
+
+1. Python 3.8.5
+2. Opencv 4.5.3.56  
+
 ![computer-vision](https://cdn.forbes.com.mx/2021/03/computer-vision-640x360.jpg)
