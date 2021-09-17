@@ -16,11 +16,11 @@ def main():
         print('Cualquier otra tecla para salir :( \n') 
         seleccion = input()
         
-        if seleccion == '1':
+        if seleccion == '2':
             bnw.run()
-        elif seleccion == '2':
-            borders.run()
         elif seleccion == '3':
+            borders.run()
+        elif seleccion == '1':
             colors.run()
         elif seleccion == '4':
             faces.run()
