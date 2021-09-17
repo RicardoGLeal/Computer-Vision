@@ -13,7 +13,7 @@
 
 # Documentacion:
 
-En este proyecto desarrollamos una serie de 4 funcionalidades relacionadas con el tema de coputer-vision, en donde intentaremos modificar imagenes mediante el añadido de filtros, identificación de contornos y de colores, así como reconocimiento facial. 
+En este proyecto desarrollamos una serie de 4 funcionalidades relacionadas con el tema de coputer-vision, en donde intentaremos modificar imagenes mediante el añadido de filtros, identificación de contornos y de colores, así como detección de rostros. 
 
 # Requerimientos
 
